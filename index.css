@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 350px;
+}
+
+.cell-wrap, .buttons-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-wrap {
+    margin-bottom: 20px;
+}
+
+.cell-wrap {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.buttons-wrap button {
+    width: 100%;
+}
+
+.cell {
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #ea45cb;
+}
+
+#cell-red, #cell-yellow {
+    position: absolute;
+}
+
+#cell-yellow {
+    background-color: yellow;
+}
+
+#cell-red {
+    background-color: orangered;
+}
